@@ -53,6 +53,16 @@ img {
   margin: 0 auto;
 }
 
+.title {
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
 .link {
   text-decoration: none;
   color: var(--text);
@@ -78,6 +88,10 @@ input {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* ------------------ */
+/* ----- HEADER ----- */
+/* ------------------ */
 
 .header {
   border-bottom: 1px solid var(--accent);
@@ -180,6 +194,10 @@ input {
   color: var(--pressed-state);
 }
 
+/* ---------------- */
+/* ----- HERO ----- */
+/* ---------------- */
+
 .hero-section {
   width: 100%;
   margin: 0 auto;
@@ -233,15 +251,9 @@ input {
   background-color: var(--pressed-state);
 }
 
-.title {
-  color: var(--dark);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-}
+/* ---------------------- */
+/* ----- ADVANTAGES ----- */
+/* ---------------------- */
 
 .advantages {
   padding-top: 120px;
@@ -285,6 +297,10 @@ input {
   letter-spacing: 0.02em;
 }
 
+/* ----------------- */
+/* ----- DOING ----- */
+/* ----------------- */
+
 .doing {
   padding-bottom: 120px;
 }
@@ -301,6 +317,10 @@ input {
 .doing-title {
   margin-bottom: 72px;
 }
+
+/* -------------------- */
+/* ----- OUR-TEAM ----- */
+/* -------------------- */
 
 .our-team {
   background-color: var(--light);
@@ -377,9 +397,14 @@ input {
 .our-team-list-link:focus {
   background-color: #404bbf;
 }
+
 .our-team-list-icon {
   fill: var(--light);
 }
+
+/* --------------------- */
+/* ----- CUSTOMERS ----- */
+/* --------------------- */
 
 .customers {
   padding: 120px 0;
@@ -432,6 +457,10 @@ input {
 .customers-list-info {
   fill: currentColor;
 }
+
+/* ------------------ */
+/* ----- FOOTER ----- */
+/* ------------------ */
 
 .footer {
   background-color: var(--dark);
@@ -587,6 +616,10 @@ input {
   margin-left: 16px;
 }
 
+/* ------------------- */
+/* ----- CATALOG ----- */
+/* ------------------- */
+
 .catalog-section {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -706,6 +739,10 @@ input {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+/* ----------------- */
+/* ----- MODAL ----- */
+/* ----------------- */
 
 .backdrop {
   position: fixed;
