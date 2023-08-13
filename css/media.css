@@ -1,0 +1,253 @@
+/* -------------------------------- */
+/* ---------- MOBILE -------------- */
+/* -------------------------------- */
+
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+
+  .hero-section {
+    max-width: 426px;
+  }
+
+  .footer {
+    max-width: 426px;
+  }
+}
+
+/* -------------------------------- */
+/* ---------- TABLET -------------- */
+/* -------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 766px;
+  }
+
+  .hero-section {
+    max-width: 766px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg/people-office-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg/people-office-tab-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .hero-btn {
+    margin-top: 36px;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .mob-menu {
+    display: none;
+  }
+
+  .header-nav {
+    margin-right: 120px;
+  }
+
+  .header-nav-list {
+    display: flex;
+  }
+
+  .header-address-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-nav-link:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .advantages-list {
+    gap: 72px 24px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .advantages-title {
+    text-align: left;
+  }
+
+  .our-team-list {
+    gap: 72px 24px;
+  }
+
+  .customers {
+    padding: 96px 108px;
+  }
+
+  .customers-container {
+    height: 363px;
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .customers-list-link {
+    padding: 16px 32px;
+  }
+
+  .footer {
+    max-width: 766px;
+  }
+
+  .footer-container {
+    justify-content: start;
+    margin-left: 108px;
+  }
+
+  .footer-logo-top {
+    text-align: left;
+    margin-right: 24px;
+  }
+
+  .footer-subscribe {
+    flex-direction: column;
+  }
+
+  .footer-subscribe-form {
+    gap: 24px;
+  }
+}
+
+/* -------------------------------- */
+/* ---------- DESKTOP ------------- */
+/* -------------------------------- */
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .hero-section {
+    max-width: 1158px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg/people-office-2x.jpg);
+    }
+
+    .header-address-list {
+      gap: 40px;
+    }
+
+    .advantages {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    .advantages-item {
+      width: calc((100% - 72px) / 4);
+    }
+
+    .advantages-item-top {
+      display: flex;
+    }
+
+    .advantages-title {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .advantages-text {
+      font-weight: 400;
+    }
+
+    .doing {
+      padding-bottom: 120px;
+      display: block;
+    }
+
+    .our-team {
+      padding-top: 120px;
+      padding-bottom: 120px;
+    }
+
+    .our-team-list {
+      gap: 24px;
+    }
+
+    .customers {
+      padding: 120px 0;
+    }
+
+    .customers-list-item {
+      width: calc((100% - 24 * 5) / 6);
+    }
+
+    .customers-container {
+      height: 203px;
+    }
+
+    .customers-list {
+      flex-wrap: nowrap;
+      gap: 24px;
+    }
+
+    .customers-list-link {
+      padding: 16px 32px;
+    }
+
+    .footer {
+      max-width: 1158px;
+    }
+
+    .footer-container {
+      align-items: baseline;
+    }
+
+    .footer-logo-top {
+      margin-right: 120px;
+    }
+
+    .footer-social {
+      margin-right: 80px;
+    }
+
+    .footer-container {
+      margin-left: auto;
+    }
+  }
+}
