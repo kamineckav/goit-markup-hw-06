@@ -919,6 +919,7 @@ input {
 
 .modal {
   position: absolute;
+  overflow: auto;
   padding: 72px 24px 24px 24px;
   top: 50%;
   left: 50%;
