@@ -150,6 +150,9 @@
     gap: 72px 24px;
   }
 
+}
+
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -161,7 +164,6 @@
         url(../images/hero-bg/people-office-tab-2x.jpg);
     }
   }
-}
 
 /* -------------------------------- */
 /* ---------- DESKTOP ------------- */
@@ -287,7 +289,10 @@
     flex-wrap: nowrap;
   }
 
-  @media (min-device-pixel-ratio: 2),
+  
+}
+
+@media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-section {
@@ -298,4 +303,3 @@
         url(../images/hero-bg/people-office-2x.jpg);
     }
   }
-}
