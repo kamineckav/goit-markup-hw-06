@@ -49,8 +49,8 @@ img {
 .container {
   width: 100%;
   /* max-width: 1158px; */
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -781,18 +781,23 @@ input {
 /* ----- CATALOG ----- */
 /* ------------------- */
 
+.catalog-section > .container {
+  max-width: 396px;
+}
+
 .catalog-section {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   max-width: 1158px;
   margin: 0 auto;
 }
 
 .catalog-btn-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 24px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
 }
 
 .catalog-btn {
@@ -805,7 +810,7 @@ input {
   border: 1px solid var(--accent);
   background-color: var(--light);
   display: flex;
-  padding: 12px 24px;
+  padding: 8px 16px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -833,12 +838,14 @@ input {
 .catalog-project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  gap: 48px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .catalog-project-item {
   background: var(--white-background);
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 
 .cataloge-link {

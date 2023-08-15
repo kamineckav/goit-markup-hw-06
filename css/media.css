@@ -30,6 +30,10 @@
   .footer > .container {
     gap: 72px;
   }
+
+  .catalog-section> .container {
+    max-width: 396px;
+  }
 }
 
 /* -------------------------------- */
@@ -167,6 +171,33 @@
   .modal {
     width: 408px;
   }
+
+  .catalog-section> .container {
+    max-width: 768px;
+  }
+
+  .catalog-section {
+  padding-top: 64px;
+  padding-bottom: 96px;
+  }
+
+  .catalog-btn-list {
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 64px;
+  }
+
+  .catalog-btn {
+    padding: 12px 24px;
+  }
+
+  .catalog-project-list {
+    gap: 72px 24px;
+  }
+
+  .catalog-project-list {
+    flex-direction: row;
+  }
 }
 
 /* -------------------------------- */
@@ -302,4 +333,25 @@
   .footer-subscribe-form {
     flex-wrap: nowrap;
   }
+
+  .catalog-section> .container {
+    max-width: 1128px;
+  }
+
+  .catalog-section {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  }
+
+  .catalog-btn-list {
+    margin-bottom: 72px;
+  }
+
+  .catalog-project-list {
+    gap: 48px 24px;
+  }
+
+  .catalog-project-item {
+  width: calc((100% - 48px) / 3);
+}
 }

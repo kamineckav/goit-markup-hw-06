@@ -66,92 +66,6 @@
           </svg>
         </button>
       </div>
-
-      <div class="mob-menu is-hidden" data-menu>
-        <div>
-          <button class="mob-menu-close-btn" data-menu-close type="button">
-            <svg class="mob-menu-close" width="8" height="8">
-              <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-          </button>
-          <nav>
-            <ul class="mob-menu-nav-list list">
-              <li class="mob-menu-nav-item">
-                <a
-                  class="mob-menu-nav-link active-menu link"
-                  href="./index.html"
-                  >Studio</a
-                >
-              </li>
-              <li class="mob-menu-nav-item">
-                <a class="mob-menu-nav-link link" href="./portfolio.html"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="mob-menu-nav-item">
-                <a class="mob-menu-nav-link link" href="#">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
-        <div>
-          <address class="mob-menu-address">
-            <ul class="mob-menu-address-list list">
-              <li class="mob-menu-address-item">
-                <a class="mob-menu-address-tel link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="mob-menu-address-item">
-                <a
-                  class="mob-menu-address-mail link"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-          </address>
-
-          <div class="mob-menu-social">
-            <ul class="mob-menu-social-list">
-              <li class="mob-menu-social-item list">
-                <a class="mob-menu-social-top" href="#">
-                  <svg class="mob-menu-social-icon" width="24" height="24">
-                    <use
-                      href="./images/icons.svg#icon-instagram-mob-menu"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="mob-menu-social-item list">
-                <a class="mob-menu-social-top" href="#">
-                  <svg class="mob-menu-social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter-mob-menu"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="mob-menu-social-item list">
-                <a class="mob-menu-social-top" href="#">
-                  <svg class="mob-menu-social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook-mob-menu"></use>
-                  </svg>
-                </a>
-              </li>
-
-              <li class="mob-menu-social-item list">
-                <a class="mob-menu-social-top" href="#">
-                  <svg class="mob-menu-social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin-mob-menu"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </header>
 
     <main>
@@ -180,12 +94,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-1.jpg"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-1.jpg    1x,
+                        ./images/projects/desk/project-1-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-1-tab.jpg    1x,
+                        ./images/projects/tab/project-1-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-1-mob.jpg    1x,
+                        ./images/projects/mob/project-1-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-1.jpg"
                     alt="Banking App Interface Concept"
-                    width="360"
-                    height="300"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -203,12 +139,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-2.jpg"
-                    alt="Cashless Payment"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-2.jpg    1x,
+                        ./images/projects/desk/project-2-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-2-tab.jpg    1x,
+                        ./images/projects/tab/project-2-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-2-mob.jpg    1x,
+                        ./images/projects/mob/project-2-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-2.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -224,12 +182,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-3.jpg"
-                    alt="Meditation App"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-3.jpg    1x,
+                        ./images/projects/desk/project-3-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-3-tab.jpg    1x,
+                        ./images/projects/tab/project-3-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-3-mob.jpg    1x,
+                        ./images/projects/mob/project-3-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-3.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -245,12 +225,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-4.jpg"
-                    alt="Taxi Service"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-4.jpg    1x,
+                        ./images/projects/desk/project-4-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-4-tab.jpg    1x,
+                        ./images/projects/tab/project-4-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-4-mob.jpg    1x,
+                        ./images/projects/mob/project-4-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-4.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -266,12 +268,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-5.jpg"
-                    alt="Screen Illustrations"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-5.jpg    1x,
+                        ./images/projects/desk/project-5-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-5-tab.jpg    1x,
+                        ./images/projects/tab/project-5-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-5-mob.jpg    1x,
+                        ./images/projects/mob/project-5-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-5.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -287,12 +311,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-6.jpg"
-                    alt="Online Courses"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-6.jpg    1x,
+                        ./images/projects/desk/project-6-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-6-tab.jpg    1x,
+                        ./images/projects/tab/project-6-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-6-mob.jpg    1x,
+                        ./images/projects/mob/project-6-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-6.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -308,12 +354,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-7.jpg"
-                    alt="Instagram Stories Concept"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-7.jpg    1x,
+                        ./images/projects/desk/project-7-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-7-tab.jpg    1x,
+                        ./images/projects/tab/project-7-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-7-mob.jpg    1x,
+                        ./images/projects/mob/project-7-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-7.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -331,12 +399,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-8.jpg"
-                    alt="Organic Food"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-8.jpg    1x,
+                        ./images/projects/desk/project-8-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-8-tab.jpg    1x,
+                        ./images/projects/tab/project-8-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-8-mob.jpg    1x,
+                        ./images/projects/mob/project-8-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-8.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -352,12 +442,34 @@
             <li class="catalog-project-item">
               <a class="cataloge-link link" href="">
                 <div class="catalog-project-top">
-                  <img
-                    src="./images/projects/project-9.jpg"
-                    alt="Fresh Coffee"
-                    width="360"
-                    height="300"
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/projects/desk/project-9.jpg    1x,
+                        ./images/projects/desk/project-9-2x.jpg 2x
+                      "
+                      media="(min-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/tab/project-9-tab.jpg    1x,
+                        ./images/projects/tab/project-9-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/projects/mob/project-9-mob.jpg    1x,
+                        ./images/projects/mob/project-9-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 428px)"
+                    />
+                    <img
+                    src="./images/projects/desk/project-9.jpg"
+                    alt="Banking App Interface Concept"
+                    width="386"
                   />
+                  </picture>
                   <p class="catalog-project-cover-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
