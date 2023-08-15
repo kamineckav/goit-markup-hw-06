@@ -16,7 +16,7 @@
   }
 
   .modal {
-    width: 329px;
+    width: 392px;
   }
 
   .mob-menu-social-list {
@@ -25,10 +25,6 @@
 
   .hero-section {
     max-width: 426px;
-  }
-
-  .customers-list-link {
-    padding: 16px 0;
   }
 
   .footer > .container {
@@ -149,6 +145,7 @@
 
   .footer-subscribe {
     flex-direction: column;
+    width: unset;
   }
 
   .footer-subscribe-form {
@@ -157,6 +154,18 @@
 
   .footer > .container {
     gap: 72px 24px;
+  }
+
+  .footer-subscribe-input {
+    width: 264px;
+  }
+
+  .footer-subscribe-label {
+    width: auto;
+  } 
+
+  .modal {
+    width: 408px;
   }
 }
 
@@ -167,10 +176,11 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
 
   .hero-section {
-    max-width: 1158px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(
